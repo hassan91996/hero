@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'DINN';
+  /* Choose a unique name for your font */
+  src: url('../public/fonts/ArbFONTS-DINNextLTArabic-Regular-4.ttf') format('truetype');
+  /* Adjust the path and format */
+  font-weight: normal;
+  font-style: normal;
+}
