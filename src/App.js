@@ -27,7 +27,7 @@ function App() {
                 <p className='px-1 px-md-4 my-5'>LOC is an asset identification software platform that is the reliable, cost-effective solution allowing your business to track all its assets.</p>
                 <div className='d-flex align-items-center justify-content-center'>
                   <a href='https://apps.apple.com/eg/app/loc-lable-on-a-cable/id1643531827' rel="noreferrer" target='_blank' className='me-3'><Image src={appStore} alt='appstore' className='img-fluid' /></a>
-                  <a href='https://play.google.com/store/apps/details?id=com.keltech.lo' rel="noreferrer" target='_blank'><Image src={goolePlay} alt='gooleplay' className='img-fluid' /></a>
+                  <a href='https://play.google.com/store/apps/details?id=com.keltech.loc' rel="noreferrer" target='_blank'><Image src={goolePlay} alt='gooleplay' className='img-fluid' /></a>
                 </div>
                 <a className='price-link mt-5 mx-auto' href='#'>See Pricing Options</a>
               </div>
