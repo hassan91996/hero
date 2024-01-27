@@ -12,19 +12,19 @@ function App() {
       <div className='hero-page'>
         <Container >
           <div className='top-logo'>
-            <div className='bg-image pb-5'>
+            <div className='bg-image pb-3 pb-xl-5'>
               <Image src={Light} className='img-fluid' />
               <div className='logo-con'>
                 <Image src={Logo} alt='logo' />
               </div>
             </div>
           </div>
-          <Row className='mt-5'>
-            <Col className='col-12 col-lg-6 text-center'>
-              <div className='hero-cont text-center'>
+          <Row className='mt-3'>
+            <Col className='col-12 col-xl-6 text-center'>
+              <div className='hero-cont text-center mx-auto'>
                 <h2 className='mb-0'>THE FUTURE</h2>
-                <h4 className='mb-5'>of asset labelling is here</h4>
-                <p className='px-1 px-md-4 my-5'>LOC is an asset identification software platform that is the reliable, cost-effective solution allowing your business to track all its assets.</p>
+                <h4 className='mb-2 mb-sm-5'>of asset labelling is here</h4>
+                <p className='px-1 px-md-4 my-4 my-sm-5'>LOC is an asset identification software platform that is the reliable, cost-effective solution allowing your business to track all its assets.</p>
                 <div className='d-flex align-items-center justify-content-center'>
                   <a href='https://apps.apple.com/eg/app/loc-lable-on-a-cable/id1643531827' rel="noreferrer" target='_blank' className='me-3'><Image src={appStore} alt='appstore' className='img-fluid' /></a>
                   <a href='https://play.google.com/store/apps/details?id=com.keltech.loc' rel="noreferrer" target='_blank'><Image src={goolePlay} alt='gooleplay' className='img-fluid' /></a>
@@ -32,8 +32,8 @@ function App() {
                 <a className='price-link mt-5 mx-auto' href='#'>See Pricing Options</a>
               </div>
             </Col>
-            <Col className='col-12 col-lg-6 text-center'>
-              <form className='login-form px-0 px-sm-5'>
+            <Col className='col-12 col-lg-8 mx-auto my-5 my-xl-0 col-xl-6 text-center'>
+              <form className='login-form px-3 px-sm-5 '>
                 <Image src={keltech} className='img-fluid mb-3' />
                 <p className='mb-2'>Welcome Back</p>
                 <p className='mb-3'>Log in to your account</p>

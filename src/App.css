@@ -37,7 +37,7 @@
 }
 
 .hero-cont {
-  width: 550px;
+  max-width: 550px;
 }
 
 .hero-cont h2 {
@@ -73,21 +73,21 @@
 
 .hero-cont .price-link {
   display: flex;
-  width: 167.23px;
-  height: 38px;
-  padding: 11px 12.8px 11px 13px;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
   color: #212F54;
   text-align: center;
-  font-size: 16px;
+  height: 49px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #42B3DB;
+  border: none;
+  font-family: "DINN";
+  font-size: 20px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 24px;
-  border-radius: 4px;
-  border: 1.5px solid var(--offwhite, #FAFAFA);
-  background: var(--table-head-color, #42B3DB);
+  font-weight: 400;
+  line-height: normal;
+  width: 260px;
 }
 
 .login-form p {
@@ -160,6 +160,26 @@
   margin-top: 30px;
 }
 
+.hero-cont .price-link:hover,
 .login-form button:hover {
   color: #fff;
+}
+
+@media (max-width:576px) {
+  .bg-image .logo-con {
+    width: 100px;
+    height: 100px;
+  }
+  .hero-cont h2{
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .hero-cont h4 {
+    color: #42B3DB;
+    text-align: center;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+}
 }
